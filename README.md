@@ -1,5 +1,11 @@
 # Pwn4Sage's Guide
 
+<img width="766" alt="截屏2024-03-23 02 26 11" src="https://github.com/n-WN/Pwn4Sage/assets/30841158/a082f0c8-4705-494f-89d3-d8dde9b94c7e">
+
+还有bug, 不建议在比赛中使用
+
+There are also bugs, not recommended for use in matches
+
 As we all know, we cannot use **pwntools** directly in **SageMath**.
 
 In order to solve this problem, you can use Linux.
@@ -29,7 +35,7 @@ This simple python script is available on PyPI and can be installed via pip.
 
 - `pip install Pwn4Sage`
 
-In the notebook of SageMath, you can use `!pip install Pwn4Sage` to install.
+In the notebook of SageMath, you can use `%pip install Pwn4Sage` to install.
 
 ## Usage
 
@@ -43,6 +49,7 @@ s = remote('39.105.144.62', 2022)
 # print(s.recvline_contains(b'XXXX'))
 s.interactive()
 ```
+
 
 
 
